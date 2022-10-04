@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+
+#email-container{
+
+    padding: 15px;
+}
+
+.email{
+    padding: 80px;
+}
+
+
+.container{
+    background-color: blue;
+}
+
+.container-large{
+    margin-top:50px ;
+    border: 25px;
+    border-color: red;
+    border-style: dotted;
+    padding: 25px;
+        background-color: aqua;
+}
+
+.churro{
+    padding: 80px;
+    display: flex;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.churro > div {
+    margin: 20px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    body {
+      background-color: green;
+    }
+  }
